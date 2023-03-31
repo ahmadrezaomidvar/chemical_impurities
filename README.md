@@ -7,7 +7,7 @@ In this challenge, a new device has been created that measures the chemical spec
 ## Performance Criteria
 When determining our model’s performance on the testing set, maximising the following criterion is considered:
 
-$\sum_{i=1}^{n_{test}} {I}({g_i} \neq \hat{g_i})$
+$\sum {I}({g_i} - \hat{g_i})$
 
 Where ${g_i}$ is the true impurity type, and $\hat{g_i}$ is our predicted impurity type. This scoring metric can be interpreted the sum of incorrect impurity type values.
 
